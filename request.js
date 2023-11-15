@@ -6,12 +6,5 @@ async function getRandomNumber() {
     document.getElementById("problem").textContent = number
 }
 
-/*function getRandomNumber() {
-    console.log("Request Sent")
-    fetch("http://localhost:2000").then((response) => response.text).then((text) => {
-        document.getElementById("problem").textContent = text
-    })
-} */
-
 var button = document.getElementById("num-button")
 button.addEventListener("click", getRandomNumber)
