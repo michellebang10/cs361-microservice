@@ -1,3 +1,6 @@
+/* Using Fetch API: 
+https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch */
+
 async function getRandomNumber() {
     console.log("Request Sent")
     const response = await fetch("http://localhost:2000")

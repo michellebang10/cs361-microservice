@@ -1,3 +1,6 @@
+/* Using material from Rob Hess' CS 290 course 
+and https://blog.arnabghosh.me/bypass-cors-error */
+
 const express = require('express')
 const app = express()
 const cors = require('cors')
